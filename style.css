@@ -4,7 +4,7 @@ width: 1075px;
 height: 620px;
 left: 0px;
 top: 0px;
-background:purple;
+background-color: whitesmoke;
 }
 
 h4{
@@ -73,7 +73,7 @@ height: 52px;
 left: 764px;
 top: 177px;
 background: #FFFFFF;
-border: 3px solid #000000;
+border: 3px solid pink;
 border-radius: 35px;
 }
 .time2{
@@ -89,7 +89,7 @@ height: 52px;
 left: 764px;
 top: 282px;
 background: #FFFFFF;
-border: 3px solid #000000;
+border: 3px solid pink;
 border-radius: 35px;
 }
 .time3{
@@ -105,22 +105,22 @@ height: 52px;
 left: 765px;
 top: 387px;
 background: #FFFFFF;
-border: 3px solid #000000;
+border: 3px solid pink;
 border-radius: 35px;
 }
 
 .time2:hover{
   color: #FFFFFF;
-  background-color: #000000;
+  background-color: pink;
   cursor: pointer;
 }
 .time3:hover{
   color: #FFFFFF;
-  background-color: #000000;
+  background-color: pink;
   cursor: pointer;
 }
 #time1:hover{
   color: #FFFFFF;
-  background-color: #000000;
+  background-color: pink;
   cursor: pointer;
 }
