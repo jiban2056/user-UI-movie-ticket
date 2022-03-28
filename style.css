@@ -1,4 +1,6 @@
-
+body{
+  font-family: monospace;
+}
 .frame1{
 width: 1075px;
 height: 620px;
