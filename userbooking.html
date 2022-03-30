@@ -5,8 +5,84 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>userbookings</title>
+  <style>
+#frame{
+  position: absolute;
+width: 800px;
+height: 600px;
+
+background: linear-gradient(130.28deg, #FFA800 1.56%, rgba(255, 168, 0, 0.35) 19.83%, rgba(255, 168, 0, 0.82) 32.38%, rgba(255, 168, 0, 0.75) 54.29%, rgba(255, 168, 0, 0.48) 64.44%, #FFA800 92.83%, #FFA800 92.84%, #FFA800 92.84%);
+background-blend-mode: hard-light;
+}
+  
+#text1{
+  transform: translate(33%);
+  position: absolute;
+width: 463px;
+font-family: 'Candal';
+font-style: normal;
+font-size: 45px;
+text-align: center;
+color: #000000;
+border-bottom: 2px solid;
+font-weight: bolder;
+} 
+#text2{
+  position: absolute;
+width: 500px;
+height: 200px;
+font-weight: bolder;
+font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+font-style: normal;
+font-size: 25px;
+line-height: 55px;
+letter-spacing: 0.01em;
+color: #000000;
+transform: translate(33%,65%);
+}
+#frame2{
+  width: 164px;
+  height: 280px;
+  background: url(kgf_poster.jpg);
+  position: absolute;
+  transform: translate(300%,60%);
+}
+.line1{
+  position: absolute;
+  left: 20px;
+  width: 10px;
+  height: 600px;
+  background-color: rgb(255, 0, 255);
+}
+.line2{
+  position: absolute;
+  left: 40px;
+  width: 10px;
+  height: 600px;
+  background-color: rgb(255, 0, 0);
+}
+.line3{
+  position: absolute;
+  left: 60px;
+  width: 10px;
+  height: 600px;
+  background-color: rgb(0, 17, 255);
+}
+</style>
 </head>
 <body>
-<p>This is user boooking page</p>
+ <div id="frame"></div>
+<p id="text1">My Bookings</p>
+<p id="text2">
+  Date: 14-03-2022 <br>
+  Movie: KGF chapter 2 <br>
+  Seats: j1,j2,j3,j4<br>
+  Time: 4:00 pm <br>
+   Amount: RS 760
+</p>
+<div id="frame2"></div>
+<div class="line1"></div>
+<div class="line2"></div>
+<div class="line3"></div>
 </body>
 </html>
