@@ -6,83 +6,80 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>userbookings</title>
   <style>
-#frame{
-  position: absolute;
+    #frame{
+position: relative;
 width: 800px;
 height: 600px;
+background: #FF9595;
+box-shadow: -2px -2px 8px #B4B4B4, 4px 4px 8px #FF9595;
+    }
+    .box1{
+position: absolute;
+width: 534px;
+height: 113px;
+left: 130px;
+top: 30px;
+background: #FF9595;
+box-shadow: 4px 4px 8px rgba(0, 0, 0, 0.25), 4px 4px 12px rgba(0, 0, 0, 0.25);    }
 
-background: linear-gradient(130.28deg, #FFA800 1.56%, rgba(255, 168, 0, 0.35) 19.83%, rgba(255, 168, 0, 0.82) 32.38%, rgba(255, 168, 0, 0.75) 54.29%, rgba(255, 168, 0, 0.48) 64.44%, #FFA800 92.83%, #FFA800 92.84%, #FFA800 92.84%);
-background-blend-mode: hard-light;
-}
-  
-#text1{
-  transform: translate(33%);
+.mybookingtext{
   position: absolute;
-width: 463px;
-font-family: 'Candal';
-font-style: normal;
-font-size: 45px;
+width: 464px;
+left: 165px;
+top: 40px;
+font-weight: 400;
+font-size: 64px;
+line-height: 83px;
 text-align: center;
 color: #000000;
-border-bottom: 2px solid;
-font-weight: bolder;
-} 
-#text2{
+text-shadow: 7px 7px 4px rgba(0, 0, 0, 0.25);
+}
+.line{
   position: absolute;
-width: 500px;
-height: 200px;
-font-weight: bolder;
-font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-font-style: normal;
-font-size: 25px;
-line-height: 55px;
-letter-spacing: 0.01em;
+width: 464px;
+height: 0px;
+left: 165px;
+top: 120px;
+border-radius: 30px;
+border: 4px solid #000000;
+box-shadow: 7px 7px 4px rgba(0, 0, 0, 0.25);
+}
+.content{
+  position: absolute;
+width: 475px;
+height: 222px;
+left: 165px;
+top: 254px;
+font-weight: bold;
+font-size: 32px;
+line-height: 127%;
 color: #000000;
-transform: translate(33%,65%);
 }
-#frame2{
-  width: 164px;
-  height: 280px;
-  background: url(kgf_poster.jpg);
+.box2{
   position: absolute;
-  transform: translate(300%,60%);
+width: 653px;
+height: 300px;
+left: 130px;
+top: 213px;
+border: 2px solid #000000;
+box-sizing: border-box;
+
 }
-.line1{
+img{
   position: absolute;
-  left: 20px;
-  width: 10px;
-  height: 600px;
-  background-color: rgb(255, 0, 255);
-}
-.line2{
-  position: absolute;
-  left: 40px;
-  width: 10px;
-  height: 600px;
-  background-color: rgb(255, 0, 0);
-}
-.line3{
-  position: absolute;
-  left: 60px;
-  width: 10px;
-  height: 600px;
-  background-color: rgb(0, 17, 255);
+  left: 492px;
+  height: 296px;
 }
 </style>
 </head>
 <body>
  <div id="frame"></div>
-<p id="text1">My Bookings</p>
-<p id="text2">
-  Date: 14-03-2022 <br>
-  Movie: KGF chapter 2 <br>
-  Seats: j1,j2,j3,j4<br>
-  Time: 4:00 pm <br>
-   Amount: RS 760
-</p>
-<div id="frame2"></div>
-<div class="line1"></div>
-<div class="line2"></div>
-<div class="line3"></div>
+ <div class="box1"></div>
+ <div class="mybookingtext">My Bookings
+ </div>
+ <div class="line"></div>
+ <div class="content">Movie: KGF chapter 2 <br>Seats: j1,j2,j3,j4 <br> Date: 14-04-2022 <br>Amount: Rs 950 </div>
+ <div class="box2"><img src="kgf_poster.jpg">
+ </div>
 </body>
 </html>
