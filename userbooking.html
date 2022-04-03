@@ -47,16 +47,17 @@ box-shadow: 7px 7px 4px rgba(0, 0, 0, 0.25);
       height: 600px;
       display: grid;
       background-color: whitesmoke;
-      grid-template-columns: repeat(auto-fill, minmax(200px,1fr));
+      grid-template-columns: repeat(auto-fill, minmax(20vw,1fr));
       /* grid-template-rows: repeat(auto-fill, minmax(200px,1fr));  i like but gtc flow well*/ 
       grid-gap: 20px;
       grid-auto-rows: minmax(100px,auto);
-      grid-auto-columns: minmax(100px,auto);
+      grid-auto-columns: minmax(50px,auto);
     }
     .boxes{
-      box-shadow: -2px -2px 8px #B4B4B4, 4px 4px 8px #FF9595;
+      box-shadow: -2px -2px 8px #B4B4B4, 4px 4px 8px grey;
+      border-radius: .5em;
+      background-color: pink;
     }
-    
     .boxes .content{
       position: relative;
       top: 90px;
