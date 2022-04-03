@@ -1,12 +1,25 @@
 body{
   font-family: monospace;
+  background-color: whitesmoke;
+}
+
+.container{
+  position: absolute;
+  width: 610px;
+  height: 355px;
+  top: 75px;
+  left: 50px;
+  background-color: whitesmoke;
+  box-shadow: inset -4px -4px 8px rgba(0, 0, 0, 0.25), inset 4px 4px 8px rgba(0, 0, 0, 0.25);
+}
+.container:hover{
+  background-color: pink;
 }
 .frame1{
 width: 1075px;
 height: 620px;
 left: 0px;
 top: 0px;
-background-color: whitesmoke;
 }
 
 h4{
@@ -16,7 +29,7 @@ width: 205px;
 height: 50px;
 left: 65px;
 display: inline;
-/* top: 36px; */
+top: -5px;
 font-family: 'Roboto';
 font-style: normal;
 font-weight: 700;
@@ -32,7 +45,8 @@ height: 329px;
 left: 65px;
 top: 88px;
 background: #000000;
-}
+box-shadow: 4px 4px 8px rgba(0, 0, 0, 0.25), 4px 4px 12px rgba(0, 0, 0, 0.25);    }
+
 p{
 position: absolute;
 display: inline;
@@ -52,7 +66,7 @@ color: #000000;
 position: absolute;
 width: 255px;
 height: 38px;
-left: 764px;
+left: 780px;
 top: 40px;
 font-family: 'Roboto';
 font-style: normal;
@@ -77,6 +91,8 @@ top: 177px;
 background: #FFFFFF;
 border: 3px solid pink;
 border-radius: 35px;
+box-shadow: inset -4px -4px 8px rgba(0, 0, 0, 0.25), inset 4px 4px 8px rgba(0, 0, 0, 0.25);
+
 }
 .time2{
   padding-top: 10px;
@@ -93,6 +109,8 @@ top: 282px;
 background: #FFFFFF;
 border: 3px solid pink;
 border-radius: 35px;
+box-shadow: inset -4px -4px 8px rgba(0, 0, 0, 0.25), inset 4px 4px 8px rgba(0, 0, 0, 0.25);
+
 }
 .time3{
   padding-top: 10px;
@@ -109,6 +127,8 @@ top: 387px;
 background: #FFFFFF;
 border: 3px solid pink;
 border-radius: 35px;
+box-shadow: inset -4px -4px 8px rgba(0, 0, 0, 0.25), inset 4px 4px 8px rgba(0, 0, 0, 0.25);
+
 }
 
 .time2:hover{
