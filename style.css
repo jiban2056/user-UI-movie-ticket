@@ -3,13 +3,6 @@ body {
   background-color: whitesmoke;
 }
 
-<<<<<<< HEAD
-.frame1{
-width: 1075px;
-height: 620px;
-left: 0px;
-top: 0px;
-=======
 .container {
   position: absolute;
   width: 610px;
@@ -29,7 +22,6 @@ top: 0px;
   height: 620px;
   left: 0px;
   top: 0px;
->>>>>>> 2af18d31cdebd65cde7331b955f5019a1ee5b94b
 }
 
 h4 {
