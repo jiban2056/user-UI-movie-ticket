@@ -2,21 +2,6 @@ body {
   font-family: monospace;
   background-color: whitesmoke;
 }
-
-.container {
-  position: absolute;
-  width: 610px;
-  height: 355px;
-  top: 75px;
-  left: 50px;
-  background-color: whitesmoke;
-  box-shadow: inset -4px -4px 8px rgba(0, 0, 0, 0.25), inset 4px 4px 8px rgba(0, 0, 0, 0.25);
-}
-
-.container:hover {
-  background-color: pink;
-}
-
 .frame1 {
   width: 1075px;
   height: 620px;
